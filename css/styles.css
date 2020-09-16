@@ -285,5 +285,6 @@ body {
 }
 
 .icon-list {
-  max-width: 100px;
+  width: 100%;
+  height: auto;
 }
