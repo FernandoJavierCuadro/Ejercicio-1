@@ -1,6 +1,5 @@
 $(".nav-link").on("click", function () {
   $(".arrowRotate", this).css("transform", "rotate(90deg)");
-  console.log("exp");
 });
 
 $(".dropdown").on("hidden.bs.dropdown", function () {
