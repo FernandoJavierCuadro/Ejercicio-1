@@ -103,26 +103,6 @@ body {
   line-height: 1.5;
 }
 
-.btn-teal {
-  color: #fff;
-  background-color: #00ba94;
-  border-color: #00ba94;
-}
-
-.btn-style {
-  font-size: 0.7rem;
-  padding: 0.8rem 1.5rem;
-}
-
-.btn-arrow {
-  overflow: visible;
-  width: 0.875em;
-  display: inline-block;
-  font-size: inherit;
-  height: 1em;
-  vertical-align: -0.125em;
-}
-
 .documentationDropdown-icon {
   display: inline-flex;
   justify-content: center;
@@ -139,7 +119,7 @@ body {
   height: 1rem;
 }
 
-/*-- header --*/
+/*-- Header --*/
 
 .header {
   padding-top: 12rem;
@@ -203,15 +183,6 @@ body {
   color: lightgray;
 }
 
-.float:hover {
-  transform: translateY(-0.1666666667rem);
-  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
-}
-
-.shadow {
-  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
-}
-
 .bg-gradient {
   background-color: #0061f2;
   background-image: linear-gradient(
@@ -221,13 +192,64 @@ body {
   );
 }
 
-.bg-grey {
-  background-color: #eff3f9 !important;
+/*-- Section-2 --*/
+
+.shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
 }
 
-.section-pad {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.h-color {
+  color: #323f52;
+}
+
+.innerPages-arrow {
+  overflow: visible;
+  width: 0.875em;
+  display: inline-block;
+  font-size: 0.75em;
+  height: 1em;
+  vertical-align: -0.125em;
+  color: #c5ccd6 !important;
+}
+
+/*-- Section-4 --*/
+
+.btn-blue {
+  color: #fff;
+  background-color: #0061f2;
+  border-color: #0061f2;
+}
+
+/*-- Footer --*/
+
+.footer-style {
+  color: #a2acba;
+  position: relative;
+}
+
+.footer-a {
+  color: inherit !important;
+}
+
+.font-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.icon-list {
+  width: 100%;
+  height: auto;
+}
+
+.copyright-text {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+/*-- -- --*/
+
+.pt-10 {
+  margin-top: 8rem;
 }
 
 .img-round {
@@ -236,8 +258,42 @@ body {
   border-radius: 0.5rem !important;
 }
 
+.btn-teal {
+  color: #fff;
+  background-color: #00ba94;
+  border-color: #00ba94;
+}
+
+.btn-style {
+  font-size: 0.7rem;
+  padding: 0.8rem 1.5rem;
+}
+
+.btn-arrow {
+  overflow: visible;
+  width: 0.875em;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.float:hover {
+  transform: translateY(-0.1666666667rem);
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
+}
+
+.bg-grey {
+  background-color: #eff3f9 !important;
+}
+
 .mb-10 {
   margin-bottom: 6rem;
+}
+
+.section-pad {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .badge-primary {
@@ -255,54 +311,6 @@ body {
   color: #7d8897;
 }
 
-.h-color {
-  color: #323f52;
-}
-
-.btn-blue {
-  color: #fff;
-  background-color: #0061f2;
-  border-color: #0061f2;
-}
-
-.innerPages-arrow {
-  overflow: visible;
-  width: 0.875em;
-  display: inline-block;
-  font-size: 0.75em;
-  height: 1em;
-  vertical-align: -0.125em;
-  color: #c5ccd6 !important;
-}
-
 .text-grey {
   color: #c5ccd6 !important;
-}
-
-.footer-style {
-  color: #a2acba;
-  position: relative;
-}
-
-.footer-a {
-  color: inherit !important;
-}
-
-.font-brand {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.pt-10 {
-  margin-top: 8rem;
-}
-
-.icon-list {
-  width: 100%;
-  height: auto;
-}
-
-.copyright-text {
-  font-size: 0.875em;
-  font-weight: 400;
 }
